@@ -4,11 +4,11 @@ class MainClass {
   public static void Main (string[] args) {
     Console.WriteLine ("Mini Exam 1");
   
-  
+
 for (int i = 0; i < 10; i++)
 {
   Console.WriteLine("Enter name");
-  string name = Console.ReadLine();
+  Console.ReadLine();
 
    Console.WriteLine("Enter your height in inches");
    double height = Convert.ToDouble(Console.ReadLine());
@@ -40,19 +40,7 @@ if (bmi > 30.0)
   Console.WriteLine("You are Obese");
 }
 
+} 
+
 }
-  
-
-
-
-
-  
-
-
-
-
-
-
-
   }
-}
